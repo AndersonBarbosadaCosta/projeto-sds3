@@ -1,10 +1,17 @@
+import DataTable from "./components/DataTable";
+import Footer from "./components/Footer";
+import NavBar from "./components/NavBar";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <h1 className="text-primary">TESTE REACT</h1>
-      </header>
+   <>
+    <NavBar />
+    <div className="container">
+      <h1 className="text-primary">TESTE REACT</h1> 
+      <DataTable />
     </div>
+    <Footer />
+    </>
   );
 }
 
