@@ -1,10 +1,14 @@
 package br.com.anderson.costa.dsvendas.dto;
 
+import java.io.Serializable;
+
 import br.com.anderson.costa.dsvendas.entites.Seller;
 
-public class SellerDTO {
+public class SellerDTO implements Serializable{
 	
-    private Long id;
+	private static final long serialVersionUID = 1L;
+	
+	private Long id;
 	private String name;
 	
 	public SellerDTO() {}
